@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Stage 1') {
             steps {
-                mvn clean install
+                gradle clean build
             }
         }
     }
